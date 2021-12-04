@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export PKG_CONFIG_LIBDIR=/usr/llvm-mingw/aarch64-w64-mingw32/lib/pkgconfig
+
+exec pkg-config "$@"
